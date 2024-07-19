@@ -1,0 +1,26 @@
+/* Flex in CSS */
+
+
+/* Centered Div using flexbox */
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.parent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    height: 400px;
+    border: 1px solid black;
+}
+
+.child {
+    width: 200px;
+    height: 200px;
+    background-color: greenyellow;
+}
